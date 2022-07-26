@@ -1,0 +1,95 @@
+
+#解锁订阅主机名 buy.itunes.apple.com
+
+#添加主机名
+hostname= buy.itunes.apple.com, gw.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, api.revenuecat.com, pro-status-service-prod.azurewebsites.net, zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com, 
+
+
+
+
+
+
+# 欲漫涩解锁会员漫画&视频（福利）
+#下载地址：https://shrtm.nu/ymse
+^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
+
+# RNI 解锁高级会员
+#下载地址：https://apps.apple.com/cn/app/rni-films/id1017098672
+https://pro-status-service-prod.azurewebsites.net/api/item url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/rf.js
+
+# Picsew 解锁专业版
+#下载地址：http://t.cn/Aig753CC
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
+
+# 图图记账 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id1546356856
+https?:\/\/api\.magictouch\.design\/user\/user\/getUserByDevice url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tutujizhang.js
+
+# Picsart美易图片视频编辑器 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id1586286914
+^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/picsart.js
+
+# 起伏-睡眠/冥想/白噪音 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id1581387090
+https?:\/\/api\.risingfalling\.com\/api\/vip\/detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/qifu.js
+
+# 布丁锁屏 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id1571268183
+https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser url script-echo-response https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/budingsuoping.js
+
+# Wallcraft-动态 壁纸解锁永久专业版
+#下载地址：http://t.cn/A6iO7Eht
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
+
+# FT中文网 解锁VIP权限解
+#下载地址：https://apps.apple.com/cn/app/id443870811
+^https?:\/\/user\.ftmailbox\.cn\/ios-receipt-validation\.php.* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ftchinese.js
+
+# Symbolab 解锁订阅（需要登录）
+#下载地址：http://mtw.so/5tc7Bk
+^https?:\/\/scibug\.com\/appleSubscriptionValidate$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/symbolab.js
+
+# Nicegram 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/nicegram-unlimited-text/id1608870673
+https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/nicegram_body.js
+
+# Lake 解锁VIP权限
+#下载地址：https://apps.apple.com/tw/app/id1183717726
+https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/lakepro.js
+
+# VPN-unlimited 解锁订阅（非国区）
+#下载地址：https://apps.apple.com/tw/app/id1370293473
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/supervpnpro.js
+
+# 夏时VPN 解锁VIP权限
+#下载地址：http://mtw.so/64MPGN
+^https?:\/\/hotspot-unlimited\.com\/addressx2\/ url response-body vip":"1 response-body vip":"0
+
+# Notability
+#下载地址：https://apps.apple.com/us/app/notability/id360593530?l=zh
+https://notability.com/subscriptions url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/notability.js
+
+# Spotify Pro
+#下载地址：http://mtw.so/6qFvqC
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+
+# Scanner Pro
+#下载地址：http://mtw.so/6qFvuE
+^https?:\/\/api\.revenuecat\.com\/v\d\/(receipts|subscribers).* url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/scannerpro.js
+
+# 堆糖 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id533415763
+^https?:\/\/www\.duitang\.com\/napi\/vienna\/graphic\/template url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/duitangpro.js
+
+# Not Boring 四件套[天气、习惯、计算器、时间] 解锁VIP权限
+#下载地址：https://apps.apple.com/us/app-bundle/not-boring-apps/id1603919363?l=zh
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/notboring.js
+
+# boom 解锁VIP权限
+#下载地址：https://apps.apple.com/us/app/id1065511007
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/boom.js
+
+# 傲软抠图 解锁VIP权限
+#下载地址：https://apps.apple.com/cn/app/id1490054676
+https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/apowersoft.js
