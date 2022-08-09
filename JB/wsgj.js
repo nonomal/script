@@ -2,7 +2,7 @@
 
 
 [rewrite_local]
-^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body wsgj.js
+^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/wsgj.js
 
 [mitm] 
 hostname = api-v3.speedtest.cn
@@ -13,7 +13,7 @@ hostname = api-v3.speedtest.cn
 
 
 
-var gjwj = JSON.parse($response.body); 
+var chxm = JSON.parse($response.body); 
 // 
 
 gjwj ={
@@ -24,7 +24,7 @@ gjwj ={
     "email": null,
     "phone": "13900139000",
     "nickname": "chxm1023",
-    "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/jhwHJQ9VNEQ4Hl1iaQS712Z9zLHHRMsvBQAkc11Enk3LUWJ0np1XhNibt7X1CRoULibxvQ0FJ4mEkf9V2PQ00iaDWA/132",
+    "avatar": "https://file2.speedtest.cn/avatar/011/68/49/34/CUFrcGqPso5lGSiSfIX7Whq16x4ejde2X5CvoVYd.jpeg",
     "gender": null,
     "identified": "0",
     "disabled": "0",
@@ -70,4 +70,4 @@ gjwj ={
   "msg": "ok"
 }
 
-$done({body:JSON.stringify(gjwj)});
+$done({body:JSON.stringify(chxm)});
