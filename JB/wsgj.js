@@ -16,7 +16,7 @@ hostname = api-v3.speedtest.cn
 var chxm = JSON.parse($response.body); 
 // 
 
-gjwj ={
+chxm ={
   "code": 0,
   "data": {
     "id": "11641894",
