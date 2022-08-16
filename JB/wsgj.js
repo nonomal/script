@@ -30,7 +30,7 @@ chxm ={
     "disabled": "0",
     "password": "",
     "balance": 0,
-    "integral": "137601226",
+    "integral": "123456789",
     "status": "1",
     "udid": null,
     "phoneProvince": null,
