@@ -21,7 +21,7 @@ chxm ={
     "vpnRegister" : "0",
     "loginCheck" : null,
     "phoneProvince" : null,
-,
+    "socialId" : "oGACExIzJUwafX_X6TCuRjwQNpuw",
     "disabled" : "0",
     "emailVerifiedAt" : null,
     "rememberToken" : null,
@@ -52,13 +52,12 @@ chxm ={
     "winxinOpenid" : null,
     "gender" : null,
     "frozenIntegral" : "0",
-    "socialNickname" : "聪",
     "deletedAt" : null,
     "balance" : 0,
-    "socialId" : "oGACExIzJUwafX_X6TCuRjwQNpuw",
     "password" : "",
     "inviteTime" : null,
-    "udid" : null
+    "udid" : null,
+    "socialNickname" : "聪"
   },
   "msg" : "ok",
 }
