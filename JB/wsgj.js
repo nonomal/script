@@ -9,7 +9,7 @@ var chxm = JSON.parse($response.body);
 // 
 
 chxm ={
-  "msg" : "ok",
+  "code" : 0
   "data" : {
     "updatedAt" : "2022-08-09 15:01:49",
     "id" : "11684934",
@@ -18,7 +18,7 @@ chxm ={
     "vpnRegister" : "0",
     "loginCheck" : null,
     "phoneProvince" : null,
-    "hashId" : "WPNv2bRO61bqQ9Vedz5Y",
+    "hashId" : "veqPdo9J0WxOBwQzNj60",
     "profile" : {
       "location" : null,
       "address" : null,
@@ -53,13 +53,13 @@ chxm ={
     "socialNickname" : "聪",
     "deletedAt" : null,
     "balance" : 0,
-    "socialId" : "oGACExPylvydWhm2SJHAUfHV7geE",
+    "socialId" : "oGACExIzJUwafX_X6TCuRjwQNpuw",
     "password" : "",
     "phone" : "13900001023",
     "inviteTime" : null,
     "udid" : null
   },
-  "code" : 0
+  "msg" : "ok",
 }
 
 $done({body:JSON.stringify(chxm)});
