@@ -1,19 +1,11 @@
 /*
-
-
 [rewrite_local]
 ^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/wsgj.js
-
 [mitm] 
 hostname = api-v3.speedtest.cn
-
-
-
 */
 
-
-
- var chxm = JSON.parse($response.body); 
+var chxm = JSON.parse($response.body); 
 // 
 
 chxm ={
@@ -45,7 +37,6 @@ chxm ={
     "emailVerifiedAt" : null,
     "rememberToken" : null,
     "email" : null,
-    "iPhone" : "13900001023"
     "identified" : "0",
     "receiveSms" : "0",
     "createdAt" : "2022-07-30 01:44:25",
@@ -64,7 +55,7 @@ chxm ={
     "balance" : 0,
     "socialId" : "oGACExPylvydWhm2SJHAUfHV7geE",
     "password" : "",
-    "phone" : null,
+    "phone" : "13900001023",
     "inviteTime" : null,
     "udid" : null
   },
