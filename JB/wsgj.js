@@ -11,14 +11,30 @@ var chxm = JSON.parse($response.body);
 chxm ={
   "code" : 0
   "data" : {
-    "updatedAt" : "2022-08-09 15:01:49",
     "id" : "11641894",
     "integral" : "666666666",
+    "phone" : "13900001023",
+    "email" : null,
+    "nickname" : "聪",
+    "avatar" : "https://file2.speedtest.cn/avatar/011/68/49/34/CUFrcGqPso5lGSiSfIX7Whq16x4ejde2X5CvoVYd.jpeg",
     "phoneCity" : null,
     "vpnRegister" : "0",
     "loginCheck" : null,
     "phoneProvince" : null,
-    "hashId" : "veqPdo9J0WxOBwQzNj60",
+,
+    "disabled" : "0",
+    "emailVerifiedAt" : null,
+    "rememberToken" : null,
+    "identified" : "0",
+    "receiveSms" : "0",
+    "createdAt" : "2022-07-30 01:44:25",
+    "updatedAt" : "2022-08-09 15:01:49",
+    "vipExpire" : "2099-09-09 09:09:09",
+    "hashId" : "veqPdo9J0WxOBwQzNj60"
+    "username" : "聪",
+    "status" : "1",
+    "isMajor" : "1",
+    "inviteId" : "0",
     "profile" : {
       "location" : null,
       "address" : null,
@@ -32,20 +48,6 @@ chxm ={
       "provinceId" : null,
       "cityId" : null
     },
-    "nickname" : "聪",
-    "disabled" : "0",
-    "emailVerifiedAt" : null,
-    "rememberToken" : null,
-    "email" : null,
-    "identified" : "0",
-    "receiveSms" : "0",
-    "createdAt" : "2022-07-30 01:44:25",
-    "vipExpire" : "2099-09-09 09:09:09",
-    "username" : "聪",
-    "avatar" : "https://file2.speedtest.cn/avatar/011/68/49/34/CUFrcGqPso5lGSiSfIX7Whq16x4ejde2X5CvoVYd.jpeg",
-    "status" : "1",
-    "isMajor" : "1",
-    "inviteId" : "0",
     "isVip" : 1,
     "winxinOpenid" : null,
     "gender" : null,
@@ -55,11 +57,9 @@ chxm ={
     "balance" : 0,
     "socialId" : "oGACExIzJUwafX_X6TCuRjwQNpuw",
     "password" : "",
-    "phone" : "13900001023",
     "inviteTime" : null,
     "udid" : null
   },
   "msg" : "ok",
 }
-
 $done({body:JSON.stringify(chxm)});
