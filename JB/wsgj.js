@@ -12,7 +12,7 @@ chxm ={
   "code" : 0
   "data" : {
     "updatedAt" : "2022-08-09 15:01:49",
-    "id" : "11684934",
+    "id" : "11641894",
     "integral" : "666666666",
     "phoneCity" : null,
     "vpnRegister" : "0",
@@ -25,7 +25,7 @@ chxm ={
       "website" : null,
       "introduction" : null,
       "bio" : null,
-      "userId" : "11684934",
+      "userId" : "11641894",
       "birthday" : null,
       "timezone" : null,
       "countryCode" : null,
@@ -41,7 +41,7 @@ chxm ={
     "receiveSms" : "0",
     "createdAt" : "2022-07-30 01:44:25",
     "vipExpire" : "2099-09-09 09:09:09",
-    "username" : "聪1023",
+    "username" : "聪",
     "avatar" : "https://file2.speedtest.cn/avatar/011/68/49/34/CUFrcGqPso5lGSiSfIX7Whq16x4ejde2X5CvoVYd.jpeg",
     "status" : "1",
     "isMajor" : "1",
