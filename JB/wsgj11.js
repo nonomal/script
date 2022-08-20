@@ -1,6 +1,6 @@
 /*
 [rewrite_local]
-^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/wsgj.js
+^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/wsgj11.js
 [mitm] 
 hostname = api-v3.speedtest.cn
 */
