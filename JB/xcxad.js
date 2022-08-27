@@ -3,6 +3,10 @@ hostname = oto.yunw2.cn, q12.tuanyougou.com, www.bbfx.ltd,qadx.qinlinad.com
 
 
 [rewrite_local]
+
+# iOS果粉 弹窗
+https://wx.wxqqurl.cn/wp-json/watch-life-net/v1/options url reject
+
 # 亲邻开门+去广告
 https://qadx.qinlinad.com url reject
 
