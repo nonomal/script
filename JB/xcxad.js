@@ -15,3 +15,6 @@ https://q12.tuanyougou.com/advert/* url script-response-body https://raw.githubu
 # 步走赚，oto.yunw2.cn
 https://oto.yunw2.cn/app/index.php* url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/xcx.js
 
+# 屏蔽微信小程序开屏广告
+^https?:\/\/*\.weixin.qq\.com\/mmtls\/*\/ url reject
+^https:\/\/*\.wxs.qq.com\/ url reject
