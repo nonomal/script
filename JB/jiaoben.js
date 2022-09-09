@@ -1,18 +1,49 @@
-//////////////////////////////////////////////
-////////////解锁合集，@chxm1023整理/////////////
-/////////////////////////////////////////////
+/*********************************************
+*================UserScript==================*
+***********************************************************解锁合集@chxm1023整理**************
+**********************************************
+*================UserScript==================*
+
+
+
+
+
+FileBall挂载阿里云操作步骤:
+**********************************************
+1.0挂载Aliyun[仅单个账户]
+1.1添加Synology协议
+1.2地址填 aliyun.example.com
+1.3用户名随意
+1.4密码填【refresh_token】Token获取地址(需要用阿里云盘扫描alist的二维码获得)[ https://alist-doc.nn.ci/docs/driver/aliyundrive ]
+1.5目前阿里云盘仅支持单账户(多账户功能后续完善...)
+1.6连接&Enjoy
+1.7如需更换账户，请删除原aliyun列表，重新按照1.1-1.4步骤添加
+**********************************************
+2.0挂载Alist[可多个账户]
+2.1添加Synology协议
+2.2地址填 alist.example.com
+2.3用户名填Alist地址，如 https://a.b.c
+2.4密码随意
+2.5按照2.1-2.4步骤可添加多个alist
+2.6当存在多个alist列表，需要使用某个alsit，请【左滑】，点击【画笔】，点击右上角【连接】使用
+2.7单alist使用时，无需2.6步骤
+2.8连接&Enjoy
+*********************************************/
 
 [mitm]
 
-hostname= buy.itunes.apple.com, gw.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, api.revenuecat.com, spclient.wg.spotify.com, notability.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, pro-status-service-prod.azurewebsites.net, api-sub.meitu.com, server.yoyiapp.com, pan.baidu.com, ap*.intsig.net, mb3admin.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn,omp-audiobookpay.lrts.me, iosv2.cjapi.wufan88.com, api-v3.speedtest.cn, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, app.yiyan.art, biz.caiyunapp.com, api.tidal.com, auth.tidal.com, api.revenuecat.com
-
-
-
+hostname= buy.itunes.apple.com, gw.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, api.revenuecat.com, spclient.wg.spotify.com, notability.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, pro-status-service-prod.azurewebsites.net, api-sub.meitu.com, server.yoyiapp.com, pan.baidu.com, ap*.intsig.net, mb3admin.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn,omp-audiobookpay.lrts.me, iosv2.cjapi.wufan88.com, api-v3.speedtest.cn, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, app.yiyan.art, biz.caiyunapp.com, api.tidal.com, auth.tidal.com, api.revenuecat.com, dida365.com, *example.com, 
 
 
 
 [rewrite_local]
 
+# 滴答清单 解锁VIP权限
+# 下载地址：http://mtw.so/6c8i6U
+^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/ddqd.js
+
+# FileBall 挂载阿里云盘@ddgksf2013
+^https?:\/\/.*\.example\.com url script-analyze-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
 
 # Fileball 解锁高级版
 # 下载地址：http://mtw.so/5X5nGK
@@ -47,12 +78,13 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 
 # WPS Office 解锁部分功能（国区）
 # 下载地址：http://mtw.so/5B2iyf
-;^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 
 # > WPS解锁稻壳会员
 # 下载地址：http://mtw.so/5B2iyf
-^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
-^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js
+;^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
+;^https?:\/\/.+\.(docer.)?wps.cn\/(user\/v1\/vip|android\/mb\/buy|download\/v1\/ios|partner\/invoke\/usable|(api|rank)\/v1(\/mobile\/mb)?\/detail) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPowerCrack.js
+
 
 
 # 网速管家 解锁Vip权限
@@ -69,7 +101,6 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 
 # 酷我音乐系列
 # 下载地址：http://mtw.so/5tlGDo
-#原脚本地址：https://github.com/ddgksf2013/Cuttlefish/raw/master/Rewrite/UnlockVip/Kuwo.conf
 # 酷我音乐_AdBlock
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
 # 酷我音乐_AdBlock
@@ -80,24 +111,8 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
 # 酷我听书_Blockad
 https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject-dict
-# 酷我听书_PayInfo
-https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我听书_PayInfo
-^https?:\/\/audiobookpay\.kuwo\.cn/a\.p url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我听书_UserInfo
-https://tingshu.kuwo.cn/v2/api/user/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我听书_UserInfo
-https?:\/\/audiobooks\.kuwo\.cn\/v2\/api\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我听书_UserStatus
-https?:\/\/tingshu\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我音乐_解锁Vip皮肤设置
-^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我音乐_解锁无损下载（先选听无损，再下载无损）
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver=\d$ url script-request-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/kuwodl.js
 # 酷我音乐_解锁会员
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/kwyy.js
-# 酷我音乐_解锁NEW会员
-^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/kuwovip.js
+^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js
 # 酷我音乐_添加已购音乐
 ^https?:\/\/.*\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
 
