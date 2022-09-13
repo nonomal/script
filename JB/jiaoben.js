@@ -4,7 +4,7 @@
 **********************************************
 *================UserScript==================*
 
-
+使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
 
 
 
@@ -32,7 +32,7 @@ FileBall挂载阿里云操作步骤:
 
 [mitm]
 
-hostname= buy.itunes.apple.com, gw.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, api.revenuecat.com, spclient.wg.spotify.com, notability.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, pro-status-service-prod.azurewebsites.net, api-sub.meitu.com, server.yoyiapp.com, pan.baidu.com, ap*.intsig.net, mb3admin.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn,omp-audiobookpay.lrts.me, iosv2.cjapi.wufan88.com, api-v3.speedtest.cn, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, app.yiyan.art, biz.caiyunapp.com, api.tidal.com, auth.tidal.com, api.revenuecat.com, dida365.com, *example.com, 
+hostname= buy.itunes.apple.com, *.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, api.revenuecat.com, spclient.wg.spotify.com, notability.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, pro-status-service-prod.azurewebsites.net, api-sub.meitu.com, server.yoyiapp.com, pan.baidu.com, ap*.intsig.net, mb3admin.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn,omp-audiobookpay.lrts.me, iosv2.cjapi.wufan88.com, api-v3.speedtest.cn, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, app.yiyan.art, biz.caiyunapp.com, api.tidal.com, auth.tidal.com, api.revenuecat.com, dida365.com, *example.com, 
 
 
 
@@ -42,9 +42,10 @@ hostname= buy.itunes.apple.com, gw.aoscdn.com, apimboom2.globaldelight.net, api-
 # 下载地址：http://mtw.so/6c8i6U
 ^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/ddqd.js
 
+
+
 # FileBall 挂载阿里云盘@ddgksf2013
 ^https?:\/\/.*\.example\.com url script-analyze-echo-response https://github.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
-
 # Fileball 解锁高级版
 # 下载地址：http://mtw.so/5X5nGK
 ^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/Json echo-response https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/Fileball.js
@@ -79,7 +80,6 @@ https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response
 # WPS Office 解锁部分功能（国区）
 # 下载地址：http://mtw.so/5B2iyf
 ^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
-
 # > WPS解锁稻壳会员
 # 下载地址：http://mtw.so/5B2iyf
 ;^https?:\/\/account\.wps\.cn\/api\/v3\/mine\/vips url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WPSDocerVIPuserCrack.js
@@ -261,4 +261,4 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 
 # 傲软抠图 解锁Vip权限
 # 下载地址：http://mtw.so/5twaH6
-https?:\/\/gw\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/apowersoft.js
+https?:\/\/.*\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/apowersoft.js
