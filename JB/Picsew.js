@@ -5,7 +5,7 @@
 
 [rewrite_local]
 # Picsew解锁专业版
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/Picsew.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/Picsew.js
 
 [mitm] 
 hostname = buy.itunes.apple.com
