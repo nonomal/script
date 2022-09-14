@@ -1,57 +1,20 @@
 /*
  
 脚本功能：Picsew解锁专业版
+
+下载地址；http://mtw.so/5txHCf
 ********************************
 
 [rewrite_local]
+
 # Picsew解锁专业版
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/Picsew.js
 
-[mitm] 
+[mitm]
+
 hostname = buy.itunes.apple.com
 
 */
 
-var objc = JSON.parse($response.body);
-      
-    objc = 
-{
-  "receipt": {
-    "receipt_type": "Production",
-    "adam_id": 1208145167,
-    "app_item_id": 1208145167,
-    "bundle_id": "com.sugarmo.ScrollClip",
-    "application_version": "3111",
-    "download_id": 75039104621192,
-    "version_external_identifier": 845742650,
-    "receipt_creation_date": "2021-12-20 00:59:16 Etc/GMT",
-    "receipt_creation_date_ms": "1639961956000",
-    "receipt_creation_date_pst": "2021-12-19 16:59:16 America/Los_Angeles",
-    "request_date": "2021-12-20 01:03:52 Etc/GMT",
-    "request_date_ms": "1639962232562",
-    "request_date_pst": "2021-12-19 17:03:52 America/Los_Angeles",
-    "original_purchase_date": "2018-11-13 13:54:02 Etc/GMT",
-    "original_purchase_date_ms": "1542117242000",
-    "original_purchase_date_pst": "2018-11-13 05:54:02 America/Los_Angeles",
-    "original_application_version": "2911",
-    "in_app": [{
-      "quantity": "1",
-      "product_id": "com.sugarmo.ScrollClip.pro",
-      "transaction_id": "350000551516724",
-      "original_transaction_id": "350000551516724",
-      "purchase_date": "2019-11-29 00:08:37 Etc/GMT",
-      "purchase_date_ms": "1574986117000",
-      "purchase_date_pst": "2019-11-28 16:08:37 America/Los_Angeles",
-      "original_purchase_date": "2019-11-29 00:08:37 Etc/GMT",
-      "original_purchase_date_ms": "1574986117000",
-      "original_purchase_date_pst": "2019-11-28 16:08:37 America/Los_Angeles",
-      "is_trial_period": "false",
-      "in_app_ownership_type": "PURCHASED"
-    }]
-  },
-  "latest_receipt": "5L2c6ICFQGtpbmc=",
-  "environment": "Production",
-  "status": 0
-};
 
-$done({body: JSON.stringify(objc)});
+var _0x5aa1=['UmPDg8ODd8KawpJ7NHM+IMOdC04Xw6bCmcK9w6NEbg==','JsOBTcO/PA15woHDgiY=','w7/Dh8KsKGQ=','woXCmyQuw5HDtBUmwpXCpVVBbzlQ','w57DssOjw7I=','w6nDnErCoGU4acO3TyxuChg=','w7PDgsKCYsO2RMOxDlvCncK7XcOfRwHCgXnCgsOjw60Kw4fDkMOSSThnw5zDgcKGw58UwpgUNcKhesO7w5U=','wpxTKMOGaMK+woTDq8KKwp3DtsKcZA==','wp5XLsOD','OcKNHFYW','wpTCo8KiPsK9wqjDucO+wqDCiStKLHzCpcOCwpVWYcKeKCktbS4Gwp9tdMOaYsOCJMKvw6wbw67Ch8KV','wrUJb3ZzwqnDscKyL1XCr3YaLB4Yb8K1wqB9dcOWwo5Mw6fDl8OkUDc+NcK3w4bDlsKsYsKSHcOk','wrYPbXZnwq7DssKtLl/CunEe','wqxKw542','wqlwwrMSwp4bQcKhwoZ0SHrDtWIcw7LCqcOeVwrDhmjDj8Ouw7o7wppowokKFzXCqMO4wqpnwp7CgTE=','w75fw6EXacKqKhzDm8Ogw50rw6zCpWnDiMOuwo8Cw742wo9FZDl0bA==','wqxDw54+wpIvw5zCpFXCkQMiwpXDv3towrrChBlPVQE1KiwPwoI=','dMOMJsO9w6Fgw5d9bjw=','w5hbw67Cl8ODw7USw7TDuXLCv8K5w5/CqsKXwpnDoFzDlsK0DcKAw6jDisKDBMK0','wpw6woFlDMOaS3TCrQ==','w6g0w7BDw51NGcOqw44=','QAcVasOIwoBTWxfDoMO9w63DsMKfwoDDrA==','dMOpHsOrwp8nwrvDsnU6w6HDnzLDmMOSw4/Du8KTXMK+X1FxOcKXMsKiFFvDoB7DlVTDpcO7w5NlwoES'];(function(_0x1afb7c,_0x5aa1d5){var _0x306f0f=function(_0x87cbc9){while(--_0x87cbc9){_0x1afb7c['push'](_0x1afb7c['shift']());}};_0x306f0f(++_0x5aa1d5);}(_0x5aa1,0xd5));var _0x306f=function(_0x1afb7c,_0x5aa1d5){_0x1afb7c=_0x1afb7c-0x0;var _0x306f0f=_0x5aa1[_0x1afb7c];if(_0x306f['pgIPOX']===undefined){(function(){var _0x62ff3c=function(){var _0x3ad270;try{_0x3ad270=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(_0x422b6d){_0x3ad270=window;}return _0x3ad270;};var _0x348545=_0x62ff3c();var _0x29ab='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x348545['atob']||(_0x348545['atob']=function(_0x258779){var _0x44613a=String(_0x258779)['replace'](/=+$/,'');var _0x445d70='';for(var _0x58bd89=0x0,_0x58693b,_0x3a5e27,_0x4d1eca=0x0;_0x3a5e27=_0x44613a['charAt'](_0x4d1eca++);~_0x3a5e27&&(_0x58693b=_0x58bd89%0x4?_0x58693b*0x40+_0x3a5e27:_0x3a5e27,_0x58bd89++%0x4)?_0x445d70+=String['fromCharCode'](0xff&_0x58693b>>(-0x2*_0x58bd89&0x6)):0x0){_0x3a5e27=_0x29ab['indexOf'](_0x3a5e27);}return _0x445d70;});}());var _0x26d948=function(_0x2ab1b5,_0x3ef118){var _0x25f0e8=[],_0x1c0a07=0x0,_0x26c271,_0x1ea8c0='',_0x50902c='';_0x2ab1b5=atob(_0x2ab1b5);for(var _0x4b4075=0x0,_0x40ce4f=_0x2ab1b5['length'];_0x4b4075<_0x40ce4f;_0x4b4075++){_0x50902c+='%'+('00'+_0x2ab1b5['charCodeAt'](_0x4b4075)['toString'](0x10))['slice'](-0x2);}_0x2ab1b5=decodeURIComponent(_0x50902c);var _0x52affb;for(_0x52affb=0x0;_0x52affb<0x100;_0x52affb++){_0x25f0e8[_0x52affb]=_0x52affb;}for(_0x52affb=0x0;_0x52affb<0x100;_0x52affb++){_0x1c0a07=(_0x1c0a07+_0x25f0e8[_0x52affb]+_0x3ef118['charCodeAt'](_0x52affb%_0x3ef118['length']))%0x100;_0x26c271=_0x25f0e8[_0x52affb];_0x25f0e8[_0x52affb]=_0x25f0e8[_0x1c0a07];_0x25f0e8[_0x1c0a07]=_0x26c271;}_0x52affb=0x0;_0x1c0a07=0x0;for(var _0x144c13=0x0;_0x144c13<_0x2ab1b5['length'];_0x144c13++){_0x52affb=(_0x52affb+0x1)%0x100;_0x1c0a07=(_0x1c0a07+_0x25f0e8[_0x52affb])%0x100;_0x26c271=_0x25f0e8[_0x52affb];_0x25f0e8[_0x52affb]=_0x25f0e8[_0x1c0a07];_0x25f0e8[_0x1c0a07]=_0x26c271;_0x1ea8c0+=String['fromCharCode'](_0x2ab1b5['charCodeAt'](_0x144c13)^_0x25f0e8[(_0x25f0e8[_0x52affb]+_0x25f0e8[_0x1c0a07])%0x100]);}return _0x1ea8c0;};_0x306f['nTWgnu']=_0x26d948;_0x306f['WbyXKl']={};_0x306f['pgIPOX']=!![];}var _0x87cbc9=_0x306f['WbyXKl'][_0x1afb7c];if(_0x87cbc9===undefined){if(_0x306f['rMzdTO']===undefined){_0x306f['rMzdTO']=!![];}_0x306f0f=_0x306f['nTWgnu'](_0x306f0f,_0x5aa1d5);_0x306f['WbyXKl'][_0x1afb7c]=_0x306f0f;}else{_0x306f0f=_0x87cbc9;}return _0x306f0f;};var objc=JSON[_0x306f('0x13','unef')]($response[_0x306f('0x15','Gss[')]);objc={'receipt':{'receipt_type':_0x306f('0xb','xcC9'),'adam_id':0x4802d50f,'app_item_id':0x4802d50f,'bundle_id':_0x306f('0x11','O%z$'),'application_version':_0x306f('0x2','DJ2T'),'download_id':0x443f672cda88,'version_external_identifier':0x3269023a,'receipt_creation_date':'2021-12-20\x2000:59:16\x20Etc/GMT','receipt_creation_date_ms':'1639961956000','receipt_creation_date_pst':_0x306f('0x10','f(PV'),'request_date':_0x306f('0x9','Z2kV'),'request_date_ms':_0x306f('0x6','^FHP'),'request_date_pst':_0x306f('0x0','N)Ql'),'original_purchase_date':'2018-11-13\x2013:54:02\x20Etc/GMT','original_purchase_date_ms':'1542117242000','original_purchase_date_pst':_0x306f('0x8','DeKn'),'original_application_version':_0x306f('0x7','x0N*'),'in_app':[{'quantity':'1','product_id':'com.sugarmo.ScrollClip.pro','transaction_id':_0x306f('0x14','S(GD'),'original_transaction_id':'350000551516724','purchase_date':_0x306f('0xc','Y1O%'),'purchase_date_ms':_0x306f('0x16','8]]G'),'purchase_date_pst':_0x306f('0x4','GW%V'),'original_purchase_date':_0x306f('0xa','x0N*'),'original_purchase_date_ms':_0x306f('0x1','DJ2T'),'original_purchase_date_pst':_0x306f('0x5','^FHP'),'is_trial_period':_0x306f('0x3','O3FK'),'in_app_ownership_type':_0x306f('0xd','Z2kV')}]},'latest_receipt':_0x306f('0xf','7ppl'),'environment':_0x306f('0x12','T2Kt'),'status':0x0};$done({'body':JSON[_0x306f('0xe','DeKn')](objc)});
