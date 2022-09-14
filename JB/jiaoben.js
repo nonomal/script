@@ -53,12 +53,12 @@ hostname= buy.itunes.apple.com, *.aoscdn.com, apimboom2.globaldelight.net, api-w
 
 # 滴答清单 解锁VIP权限
 # 下载地址：http://mtw.so/6c8i6U
-^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/ddqd.js
+^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/ddqd.js
 
 
 
 # FileBall 挂载阿里云盘@ddgksf2013
-^https?:\/\/.*\.example\.com url script-analyze-echo-response https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Script/ali.js
+^https?:\/\/.*\.example\.com url script-analyze-echo-response https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Script/ali.js
 # Fileball 解锁高级版
 # 下载地址：http://mtw.so/5X5nGK
 ^https?:\/\/api\.revenuecat\.com\/v\d\/(subscribers/\$RCAnonymousID\%(\w)+|receipts)$ url echo-response text/Json echo-response https://raw.githubusercontents.com/chxm1023/QX/main/Scripts/Fileball.js
@@ -213,13 +213,13 @@ https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser url script-echo-respons
 
 # Nicegram 解锁Vip权限
 # 下载地址：http://mtw.so/5Iuohu
-https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/nicegram_body.js
+https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json response-body "premiumAccess": true
 
 
 
 # Lake 解锁Vip权限
 # 下载地址：http://mtw.so/5WQR0O
-https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/lakepro.js
+https?:\/\/revenuecat\.lakecoloring\.com\/v\d\/(receipts|subscribers) url script-echo-response https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/lakepro.js
 
 
 
@@ -249,8 +249,8 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 
 # Scanner Pro 解锁高级Vip权限
 # 下载地址：http://mtw.so/6bSOyO
-^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-response-body https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/scannerpro.js
-^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-response-body https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/scannerpro.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/subscribers\/(\$RCAnonymousID\%)?(\w)+$ url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/scannerpro.js
+^https?:\/\/api\.revenuecat\.com\/v\d\/receipts$ url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/scannerpro.js
 
 
 
@@ -262,13 +262,13 @@ https://notability.com/subscriptions url script-response-body https://raw.github
 
 # Not Boring[天气、习惯、计算器、时间] 解锁VIP权限
 # 下载地址：http://mtw.so/5WQRny
-^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/notboring.js
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/notboring.js
 
 
 
 # boom 解锁Vip权限
 # 下载地址：http://mtw.so/5WQRnS
-^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://githubs.com/ddgksf2013/Cuttlefish/raw/master/Crack/boom.js
+^https:\/\/apimboom2\.globaldelight\.net\/itunesreceipt_v2\.php$ url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/boom.js
 
 
 
