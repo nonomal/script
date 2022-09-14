@@ -30,6 +30,8 @@ FileBall挂载阿里云操作步骤:
 2.8连接&Enjoy
 *********************************************/
 
+
+
 [mitm]
 
 hostname= buy.itunes.apple.com, *.aoscdn.com, apimboom2.globaldelight.net, api-weather.andy.works, www.duitang.com, api.revenuecat.com, spclient.wg.spotify.com, notability.com, user.ftmailbox.cn, *.wallpaperscraft.com, screen-lock.51wnl-cq.com, api.risingfalling.com, api.meiease.cn, pro-status-service-prod.azurewebsites.net, api-sub.meitu.com, server.yoyiapp.com, pan.baidu.com, ap*.intsig.net, mb3admin.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, musicpay.kuwo.cn, vip1.kuwo.cn, audiobookpay.kuwo.cn, tingshu.kuwo.cn,omp-audiobookpay.lrts.me, iosv2.cjapi.wufan88.com, api-v3.speedtest.cn, *.docer.wps.cn, vipapi.wps.cn, *account.wps.cn, *account.wps.com, app.yiyan.art, biz.caiyunapp.com, api.tidal.com, auth.tidal.com, api.revenuecat.com, dida365.com, *example.com, 
@@ -41,7 +43,7 @@ hostname= buy.itunes.apple.com, *.aoscdn.com, apimboom2.globaldelight.net, api-w
 
 # Panda widget解锁会员
 #下载地址；http://mtw.so/6bZ0fl
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body pandavip.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/pandavip.js
 
 
 
@@ -145,7 +147,7 @@ https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject-dict
 
 # 百度网盘 解锁部分SVIP功能
 # 下载地址：http://mtw.so/5IhM60
-https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # 百度网盘 解锁在线视频倍率/清晰度
 https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontents.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 
