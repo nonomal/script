@@ -213,7 +213,7 @@ https?:\/\/screen-lock\.51wnl-cq\.com\/userApi\/saveUser url script-echo-respons
 
 # Nicegram 解锁Vip权限
 # 下载地址：http://mtw.so/5Iuohu
-https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json response-body premiumAccess": true
+https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json script-echo-response https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/nicegram_body.js
 
 
 
