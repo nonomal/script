@@ -2,12 +2,12 @@
 
 脚本功能：Panda widget解锁会员
 
-下载地址；http://mtw.so/5txHCf
+下载地址；http://mtw.so/6bZ0fl
 ********************************
 
 [rewrite_local]
 # Panda widget解锁会员
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body pandavip.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/pandavip.js
 
 [mitm]
 hostname = buy.itunes.apple.com
