@@ -1,20 +1,31 @@
 /*
- 
+ *
+ *
 脚本功能：Picsew解锁专业版
+软件版本：3.8.1
+下载地址：http://t.cn/Aig753CC
+脚本作者：Hausd0rff
+特别鸣谢：感谢@king大佬提供的数据
+更新时间：2021.12.20
+电报频道：https://t.me/yqc_123
+问题反馈：https://t.me/yqc_007
+使用声明：⚠️此脚本仅供学习与交流，
+        请勿转载与贩卖！⚠️⚠️⚠️
 
-下载地址；http://mtw.so/5txHCf
 ********************************
 
 [rewrite_local]
 
 # Picsew解锁专业版
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/Picsew.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
 
-[mitm]
+[mitm] 
 
 hostname = buy.itunes.apple.com
-
+*
+*
 */
+
 
 var objc = JSON.parse($response.body);
       
