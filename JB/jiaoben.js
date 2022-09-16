@@ -40,18 +40,6 @@ hostname= buy.itunes.apple.com, *.aoscdn.com, apimboom2.globaldelight.net, api-w
 
 [rewrite_local]
 
-# Picsew解锁专业版
-#下载地址；http://mtw.so/5txHCf
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/Picsew.js
-
-
-
-# Panda widget解锁会员
-#下载地址；http://mtw.so/6bZ0fl
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/pandavip.js
-
-
-
 # 滴答清单 解锁VIP权限
 # 下载地址：http://mtw.so/6c8i6U
 ^https:\/\/(ticktick|dida365)\.com\/api\/v2\/user\/status url script-response-body https://raw.githubusercontents.com/ddgksf2013/Cuttlefish/master/Crack/ddqd.js
