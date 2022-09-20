@@ -1,8 +1,12 @@
 /*
 
+脚本功能：网速管家 解锁Vip
+下载地址：http://mtw.so/5XqaXq
+使用声明：此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
 
 [rewrite_local]
-^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/wsgj.js
+^https:\/\/api-v3\.speedtest\.cn\/user\/info url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/wsgj.js
 
 [mitm] 
 hostname = api-v3.speedtest.cn
