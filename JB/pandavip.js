@@ -7,7 +7,7 @@
 
 [rewrite_local]
 # Panda widget解锁会员
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/JB/pandavip.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/JB/pandavip.js
 
 [mitm]
 hostname = buy.itunes.apple.com
