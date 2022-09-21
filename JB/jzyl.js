@@ -13,9 +13,9 @@
 注意捉完CK后记得关闭重写，否则可能会捉到重复的账号
 [task_local]
 #健走有礼
-47 8,20 * * * https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js, tag=健走有礼, enabled=true
+47 8,20 * * * https://raw.githubusercontents.com/chxm1023/script/main/JB/jzyl.js, tag=健走有礼, enabled=true
 [rewrite_local]
-https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js
+https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontents.com/chxm1023/script/main/JB/jzyl.js
 [MITM]
 hostname = bwa.feierlaiedu.com
 
