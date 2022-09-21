@@ -15,7 +15,7 @@ hostname= apph5.manmanbuy.com, h5.ele.me, open.meituan.com, game.xiaojukeji.com,
 
 
 # 健步有礼获取Ck hostname= bwa.feierlaiedu.com
-https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontents.com/leafTheFish/DeathNote/main/jzyl.js
+https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontents.com/chxm1023/script/main/JB/jzyl.js
 
 
 
