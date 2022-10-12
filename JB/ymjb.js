@@ -4,7 +4,7 @@
 
 [mitm]
 
-hostname= apph5.manmanbuy.com, open.meituan.com, game.xiaojukeji.com,api.kuaisho*.com,gjgrowthoper.58.com, bwa.feierlaiedu.com
+hostname= apph5.manmanbuy.com, open.meituan.com, game.xiaojukeji.com,api.kuaisho*.com,gjgrowthoper.58.com, bwa.feierlaiedu.com, magicisland.58.com, *.ele.me
 
 
 
@@ -13,10 +13,18 @@ hostname= apph5.manmanbuy.com, open.meituan.com, game.xiaojukeji.com,api.kuaisho
 
 [rewrite_local]
 
+# 饿了么
+mtop.alsc.eleme.miniapp.collection.homepagev1 url script-request-header https://raw.githubusercontents.com/leafTheFish/DeathNote/main/elm.js
+
+
 
 # 健步有礼获取Ck hostname= bwa.feierlaiedu.com
 https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontents.com/chxm1023/QX/main/Task/jzyl.js
 
+
+
+# 58同城 hostname= magicisland.58.com
+https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/58tc.js
 
 
 
