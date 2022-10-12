@@ -14,7 +14,7 @@ hostname= apph5.manmanbuy.com, open.meituan.com, game.xiaojukeji.com,api.kuaisho
 [rewrite_local]
 
 # 饿了么
-mtop.alsc.eleme.miniapp.collection.homepagev1 url script-request-header https://raw.githubusercontents.com/leafTheFish/DeathNote/main/elm.js
+mtop.alsc.eleme.miniapp.collection.homepagev1 url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/elm.js
 
 
 
