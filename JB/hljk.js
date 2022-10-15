@@ -2,7 +2,7 @@
  * 监控汇率变化
  * @author: Peng-YM
  * @Alter: chxm1023
- * 更新地址：https://raw.githubusercontents.com/chxm1023/script/main/JB/hljk.js
+ * 更新地址：https://raw.githubusercontent.com/chxm1023/script/main/JB/hljk.js
  * 配置方法：
  * 1. 设置基准货币，默认人民币(CNY)。
  * 2. 设置保留几位小数。
@@ -14,17 +14,17 @@ const digits = 3; // 保留几位有效数字
 
 const $ = API("exchange");
 const currencyNames = {
+    CNY: ["人民币", "🇨🇳"],
     USD: ["美元", "🇺🇸"],
     EUR: ["欧元", "🇪🇺"],
     GBP: ["英镑", "🇬🇧"],
-    CNY: ["人民币", "🇨🇳"],
     HKD: ["港币", "🇭🇰"],
     JPY: ["日元", "🇯🇵"],
-    TWD: ["新台币", "🇨🇳"],
-    TRY: ["土耳其里拉", "🇹🇷"],
     KRW: ["韩元", "🇰🇷"],
     THB: ["泰铢", "🇹🇭"],
     VND: ["越南盾", "🇻🇳"],
+    TWD: ["新台币", "🇨🇳"],
+    TRY: ["土耳其里拉", "🇹🇷"],
     ZWL: ["津巴布韦币", "🇿🇼"],
 };
 
