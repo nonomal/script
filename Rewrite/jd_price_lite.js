@@ -64,6 +64,18 @@ switch (browser) {
     case "Alook":
         chooseBrowser = "Alook://";
         break;
+    case "Foxok":
+        chooseBrowser = "Foxok://";
+        break;
+    case "Edge":
+        chooseBrowser = "Edge://";
+        break;
+    case "Chrome":
+        chooseBrowser = "Chrome://";
+        break;
+    case "Focus":
+        chooseBrowser = "Focus://";
+        break;
     default:
         chooseBrowser = $tool.getCache("jfDIYScheme");
 }
