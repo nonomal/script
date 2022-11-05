@@ -16,9 +16,7 @@ hostname = api.m.jd.com
 
 ****************************************/
 
-var chxm1023 = JSON.parse($response.body);
 
-    chxm1023 = {
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
 const path3 = "basicConfig";
@@ -345,5 +343,3 @@ Date.prototype.format = function (fmt) {
     }
     return fmt;
 }
-}
-$done({body : JSON.stringify(chxm1023)});
