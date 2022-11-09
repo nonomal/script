@@ -17,6 +17,7 @@ hostname = biz.caiyunapp.com
 
 ****************************************/
 
+
 const SCRIPT_NAME = '彩云天气';
 const USER_REGEX = /https?:\/\/biz\.caiyunapp\.com\/v2\/user/;
 const RIGHTS_REGEX = /https?:\/\/biz\.caiyunapp\.com\/membership_rights/;
@@ -386,7 +387,7 @@ function MagicJS(scriptName='MagicJS', logLevel='INFO'){
       this.write(key, undefined, session);
     }
 
-    /****************************************
+    /**
      * iOS系统通知
      * @param {*} title 通知标题
      * @param {*} subTitle 通知副标题
@@ -397,7 +398,7 @@ function MagicJS(scriptName='MagicJS', logLevel='INFO'){
      * options "https://www.apple.com.cn/" 打开Apple.com.cn
      * options {'open-url': 'https://www.apple.com.cn/'} 打开Apple.com.cn
      * options {'open-url': 'https://www.apple.com.cn/', 'media-url': 'https://raw.githubusercontent.com/Orz-3/mini/master/Apple.png'} 打开Apple.com.cn，显示一个苹果Logo
-     ****************************************/ 
+     */ 
     notify(title=this.scriptName, subTitle='', body='', options=''){
       let convertOptions = (_options) =>{
         let newOptions = '';
@@ -558,22 +559,22 @@ function MagicJS(scriptName='MagicJS', logLevel='INFO'){
       return parseFloat(val).toString() === "NaN"? false: true;
     }
 
-    /****************************************
+    /**
      * 对await执行中出现的异常进行捕获并返回，避免写过多的try catch语句
      * @param {*} promise Promise 对象
      * @param {*} defaultValue 出现异常时返回的默认值
      * @returns 返回两个值，第一个值为异常，第二个值为执行结果
-     ****************************************/
+     */
     attempt(promise, defaultValue=null){ return promise.then((args)=>{return [null, args]}).catch(ex=>{this.log('raise exception:' + ex); return [ex, defaultValue]})};
 
-    /****************************************
+    /**
      * 重试方法
      * @param {*} fn 需要重试的函数
      * @param {number} [retries=5] 重试次数
      * @param {number} [interval=0] 每次重试间隔
      * @param {function} [callback=null] 函数没有异常时的回调，会将函数执行结果result传入callback，根据result的值进行判断，如果需要再次重试，在callback中throw一个异常，适用于函数本身没有异常但仍需重试的情况。
      * @returns 返回一个Promise对象
-     ****************************************/
+     */
     retry(fn, retries=5, interval=0, callback=null) {
       return (...args)=>{
         return new Promise((resolve, reject) =>{
