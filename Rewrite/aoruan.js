@@ -20,7 +20,7 @@ var chxm1023 = {
   "status" : 200,
   "message" : "success",
   "data" : {
-    "expired_at" : 4096408296,
+    "expired_at" : 4092600296,
     "is_activated" : 1,
     "is_lifetime" : 1,
     "expire_time" : "2099-09-09 09:09:09",
