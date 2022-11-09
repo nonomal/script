@@ -14,7 +14,7 @@
 [MITM]
 
 hostname = biz.caiyunapp.com
- 
+
 ****************************************/
 
 const SCRIPT_NAME = '彩云天气';
