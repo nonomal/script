@@ -20,11 +20,9 @@ hostname = api-v3.speedtest.cn
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
 
-chxm1023.data.integral = "666666666";
-chxm1023.data.vipExpire = "2099-10-23 09:09:09";
+chxm1023.data.integral = "999999999";
+chxm1023.data.vipExpire = "2099-09-09 09:09:09";
 chxm1023.data.isVip = 1;
-chxm1023.data.isMajor = "1";
-chxm1023.data.status = "1";
 
 body = JSON.stringify(chxm1023);
 
