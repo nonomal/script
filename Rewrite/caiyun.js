@@ -11,7 +11,7 @@
 ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/caiyun.js
 
 
-[MITM]
+[mitm]
 
 hostname = biz.caiyunapp.com
 
