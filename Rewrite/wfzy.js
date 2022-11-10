@@ -16,7 +16,16 @@ http:\/\/iosv2\.cjapi\.wufan88\.com\/user\/.+ url script-response-body https://r
 
 hostname = iosv2.cjapi.wufan88.com
 
-
 ****************************************/
 
 
+var body = $response.body;
+var chxm1023 = JSON.parse(body);
+
+chxm1023.data.member_state = 2;
+chxm1023.data.expired_time = 4092600296;
+chxm1023.data.is_vip = "9A0684792021D73BE42B71491469ADFA";
+
+body = JSON.stringify(chxm1023);
+
+$done({body});
