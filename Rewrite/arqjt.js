@@ -15,7 +15,7 @@
 下载地址：https://t.cn/A6o1jCGU
 
 项目名称：傲软投屏 解锁Vip
-项目名称：https://t.cn/A65nw9gx
+下载地址：https://t.cn/A65nw9gx
 
 项目名称：咖映 解锁Vip
 下载地址：https://t.cn/A6o1lsFL
