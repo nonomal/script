@@ -35,7 +35,7 @@ var chxm1023 = JSON.parse($response.body);
   "product_infos" : [
     {
       "product_id" : "5310897792128633390",
-      "end_time" : 2147483648,
+      "end_time" : 4092600296,
       "buy_time" : "1417260485",
       "cluster" : "offlinedl",
       "start_time" : 1417260485,
