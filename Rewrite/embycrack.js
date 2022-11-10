@@ -20,6 +20,8 @@
 hostname= mb3admin.com
 
 ****************************************/
+
+
 var url = $request.url;
 
 const myStatus = "HTTP/1.1 200 OK";
