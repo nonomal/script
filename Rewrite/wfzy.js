@@ -21,10 +21,7 @@ hostname = iosv2.cjapi.wufan88.com
 
 var body = $response.body;
 var chxm1023 = JSON.parse(body);
-
 chxm1023.data.user_info.member_state = 2;
 chxm1023.data.user_info.is_vip = "9A0684792021D73BE42B71491469ADFA";
-chxm1023.data.user_info.expired_time = 4092600296;
-
 body = JSON.stringify(chxm1023);
 $done({body});
