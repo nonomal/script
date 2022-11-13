@@ -22,7 +22,7 @@ var chxm1023 = JSON.parse(body);
 
 chxm1023.data.isAppVip = 1;
 chxm1023.appVipText = "永久VIP";
-chxm1023.registerTime = 6667718185000;
+chxm1023.registerTime = 4092600296000;
 
 body = JSON.stringify(chxm1023);
 $done({body});
