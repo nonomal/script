@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https:\/\/app\.yjai\.art:30108\/painting\/site\/getUserInfo url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/yhhh.js
+^https:\/\/app\.yjai\.art:30108\/painting\/site\/getUserInfo url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/yjhh.js
 
 [mitm]
 
