@@ -18,5 +18,5 @@ hostname = api.risingfalling.com
 
 
 var chxm1023 = JSON.parse($response.body);
-chxm1023.body={"isVip":true,"vipEndTime":4092600296000};
+chxm1023.body={"isVip":true,"vipEndTime":4092599350000};
 $done({body: JSON.stringify(chxm1023)});
