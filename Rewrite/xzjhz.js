@@ -7,10 +7,7 @@
 *****************************************
 
 [rewrite_local]
-
-[rewrite_local]
 ^https:\/\/widget-box-api\.codefuture\.top\/v1\/users\/me url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/xzjhz.js
-
 
 [mitm]
 
