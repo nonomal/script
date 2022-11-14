@@ -17,7 +17,7 @@ mtop.alsc.eleme.miniapp.collection.homepagev1 url script-request-header https://
 
 
 # 健步有礼获取Ck hostname= bwa.feierlaiedu.com
-https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/jzyl.js
+https://bwa.feierlaiedu.com/api/v1/bbg/taskRecord/queryUserInfo url script-request-header https://raw.githubusercontent.com/leafTheFish/DeathNote/main/jzyl.js
 
 
 # 58同城 hostname= magicisland.58.com
@@ -25,21 +25,21 @@ https://magicisland.58.com/web/sign/getIndexSignInInfo url script-request-header
 
 
 # 赶集直招 hostname= gjgrowthoper.58.com
-https://gjgrowthoper.58.com/user/userinfo url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/gjzz.js
+https://gjgrowthoper.58.com/user/userinfo url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/gjzz.js
 
 
 # 快手 hostname= api.kuaisho*.com
-appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/ks.js
-ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/ks.js
+appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ks.js
+ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ks.js
 
 
 # 快手极速版 hostname= api.kuaisho*.com
-appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/ksjsb_v2.js
-ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/QX/main/Task/ksjsb_v2.js
+appsupport/yoda/biz/info url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ksjsb_v2.js
+ksapp/client/package/renew url script-request-header https://raw.githubusercontent.com/chxm1023/script/main/Task/ksjsb_v2.js
 
 
 # 美团 hostname= open.meituan.com
-https://open.meituan.com/user/v1/info url script-request-body https://raw.githubusercontent.com/chxm1023/QX/main/Task/meituan.js
+https://open.meituan.com/user/v1/info url script-request-body https://raw.githubusercontent.com/chxm1023/script/main/Task/meituan.js
 
 
 # 慢慢买获取Cookie hostname= apph5.manmanbuy.com
