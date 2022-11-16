@@ -1,0 +1,9 @@
+[rewrite_local]
+
+^https?:\/\/mall\.meituan\.com\/api\/c\/mallcoin\/checkIn\/queryTaskListInfoV.\? url script-request-header https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js
+
+
+[mitm]
+
+hostname = mall.meituan.com
+
