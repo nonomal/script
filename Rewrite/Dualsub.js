@@ -60,8 +60,8 @@
 ****************************************/
 
 
-let url = $request.url
-let headers = $request.headers
+let url = $request.url;
+let headers = $request.headers;
 
 let default_settings = {
     Disney: {
