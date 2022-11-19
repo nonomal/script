@@ -18,17 +18,6 @@
 
         [rewrite_local]
 
-        // 简体；订阅链接后面加上 #out=Hant 后开启资源解析器
-        // https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hant
-
-        https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!(zh|zh\-Hans)&)((?!&tlang=zh\-Hans).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hans HTTP/1.1$1
-
-
-        // 繁体；订阅链接后面加上 #out=Hans 后开启资源解析器
-        // https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/Youtube_CC.conf#out=Hans
-
-        https:\/\/www.youtube.com\/api\/timedtext\?.+&lang=(?!zh\-Hant&)((?!&tlang=zh\-Hant).)*$ url request-header \sHTTP/1\.1(\r\n) request-header &tlang=zh-Hant HTTP/1.1$1
-
         // All in one
         ^http.+(media.(dss|star)ott|manifests.v2.api.hbo|hbomaxcdn|nflxvideo|cbs(aa|i)video|cloudfront|akamaihd|avi-cdn|huluim|youtube).(com|net)\/(.+\.vtt($|\?m=\d+)|.+-all-.+\.m3u8.*|hls\.m3u8.+|\?o=\d+&v=\d+&e=.+|\w+\/2\$.+\/[a-zA-Z0-9-]+\.m3u8|api\/timedtext.+) url script-response-body https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/Dualsub.js
         ^http.+(setting|general).(media.dssott|hbomaxcdn|nflxvideo|youtube|cbsivideo|cloudfront|huluim).(com|net)\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/chxm1023/script/main/Rewrite/Dualsub.js
