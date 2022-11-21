@@ -15,7 +15,7 @@ ScriptName:京东 ck 多账号备注 + 搜索
 搜索示例：0,2Y,正常
 返回结果：返回下标为 0 的，返回 2Y (username|nickname),返回正常状态的
 task : 每日九点检查 ck 过期状态
-0 9 * * ? https://raw.githubusercontent.com/chxm1023/script/main/JD/jd_cookie_search.js, tag=Cookie检索, img-url=https://raw.githubusercontent.com/chxm1023/script/main/JD/icons/jd.png, enabled=true
+0 9 * * ? https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/jd_cookie_search.js, tag=Cookie检索, img-url=https://raw.githubusercontent.com/chxm1023/script/main/Task/JD/icons/jd.png, enabled=true
 
 */
 const noTitle = '登陆助手'
