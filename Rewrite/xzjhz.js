@@ -21,6 +21,7 @@ var chxm1023 = JSON.parse(body);
 
 chxm1023.inviteCodeAmountLeft = 5;
 chxm1023.isVip = true;
+chxm1023.vipExpiredAt = "0";
 
 body = JSON.stringify(chxm1023);
 
