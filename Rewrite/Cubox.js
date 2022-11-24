@@ -1,11 +1,5 @@
 /****************************************
 
-项目功能：cubox-收藏阅读 解锁VIP
-下载地址：https://t.cn/A6x4qhyJ
-使用声明：仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
-
-*****************************************
-
 [rewrite_local]
 
 ^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontents.com/chxm1023/script/main/Rewrite/Cubox.js
