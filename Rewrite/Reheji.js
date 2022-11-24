@@ -1,46 +1,5 @@
 /*****************************************
 
-使用方法：先开脚本再打开App，自动会解锁，如果没效果就关了重开或者按一下恢复购买，在还不行就卸载App重新安装！最后还不行的话就是脚本失效了！
-
-#1
-项目名称：Fileball 解锁Pro
-下载地址：已下架，已购的还可下载
-
-#2
-项目名称：VSCO 解锁Pro
-下载地址：https://t.cn/AiOSSyU9
-
-#3
-项目名称：1Blocker 拦截工具
-下载地址：https://t.cn/A6V7PAjE
-
-#4
-项目名称：图图记账 解锁Pro
-下载地址：https://t.cn/A6JZS4a0
-
-#5
-项目名称：手机硬件管家 解锁高级版
-下载地址：https://t.cn/A659O6zK
-
-#6
-项目名称：Tiao 解锁高级版（1.5.0以下版本）
-下载地址：自己抓旧版吧，新版不行
-
-#7
-项目名称：Pillow 解锁Pro
-下载地址：https://t.cn/A6oupMnR
-
-#8
-项目名称：证件扫描仪Scanner Pro解锁Vip
-下载地址：https://t.cn/A6o0mdwX
-
-#9
-项目名称：Anybox 解锁Pro功能
-下载地址：https://t.cn/A6oupXiC
-
-*****************************************
-
-
 [rewrite_local]
 
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/(.*?)*$) url script-response-body https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/Reheji.js
