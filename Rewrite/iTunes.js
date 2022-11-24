@@ -1,73 +1,13 @@
 /***********************************
 
-#1
-项目名称：Panda Widget小组件 解锁会员
-下载地址：http://mtw.so/6bZ0fl
-使用方法：打开App，恢复购买即可，一次性解锁
-
-#2
-项目名称：Picsew截长图 解锁专业版
-下载地址：http://t.cn/Aig753CC
-使用方法：打开App，右上角设置，自动解锁，没效果就关了重开，还是不行就按一下恢复购买，一次性解锁
-
-#3
-项目名称：APTV 解锁Pro功能
-下载地址：http://mtw.so/5J04Kz
-使用方法：打开App，设置，最上面的APTV Pro，左上角「付费下载用户点我升级」一次性解锁
-
-#4
-项目名称：照片清理工具Photo Cleaner 解锁高级版
-下载地址：http://mtw.so/5QGb0c
-使用方法：打开App，左上角三条杠，高级访问，右下角下面有一个「已购买？」
-
-#5
-项目名称：VPN-unlimited 解锁订阅
-下载地址：http://mtw.so/5J04Kz
-使用方法：国区无法下载，需要外区下载，打开App，自动解锁，如果没解锁按恢复购买试试。一次性解锁
-
-#6
-项目名称：私密相册管家 解锁订阅
-下载地址：http://mtw.so/5Q8xrG
-使用方法：进去自动解锁，如果没解锁自己按下恢复购买
-
-#7
-项目名称：Focos 解锁订阅
-下载地址：http://mtw.so/5Q9n5W
-使用方法：进去自动解锁，如果没解锁自己按下恢复购买
-
-#8
-项目名称：ProKnockOut 解锁订阅
-下载地址：http://mtw.so/6l1ATj
-使用方法：进去自动解锁，如果没解锁自己按下恢复购买
-
-#9
-项目名称：Anki Note 解锁订阅
-下载地址：http://t.cn/A6oTR5RT
-使用方法：进去自动解锁，如果没解锁自己按下恢复购买（非一次性解锁，使用前先开脚本）
-
-#10
-项目名称：计算器Air 解锁高级版
-下载地址：https://t.cn/A6X4wRo0
-使用方法：打开App有弹窗关闭就行（非一次性解锁，使用前先开脚本）
-
-#11
-项目名称：立即翻译 解锁高级版
-下载地址：https://t.cn/A6orUaRg
-使用方法：打开App有弹窗关闭就行（非一次性解锁，使用前先开脚本）
-
-************************************
-
-
 [rewrite_local]
 
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-echo-response https://raw.githubusercontent.com/chxm1023/QX/main/Scripts/iTunes.js
 
 
-
 [mitm] 
 
 hostname = buy.itunes.apple.com
-
 
 ***********************************/
 
